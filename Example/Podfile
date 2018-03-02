@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'example-pod-using-restkit_Example' do
+  pod 'example-pod-using-restkit', :path => '../'
+
+  target 'example-pod-using-restkit_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
