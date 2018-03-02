@@ -1,0 +1,6 @@
+framework module example_pod_using_restkit {
+  umbrella header "example-pod-using-restkit-umbrella.h"
+
+  export *
+  module * { export * }
+}

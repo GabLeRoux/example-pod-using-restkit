@@ -1,0 +1,22 @@
+{
+  "name": "example-pod-using-restkit",
+  "version": "0.1.0",
+  "summary": "A short description of example-pod-using-restkit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Gabriel Le Breton/example-pod-using-restkit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gabriel Le Breton": "lebreton.gabriel@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Gabriel Le Breton/example-pod-using-restkit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "example-pod-using-restkit/Classes/**/*"
+}
