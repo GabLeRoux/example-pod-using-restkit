@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Gabriel Le Breton/example-pod-using-restkit'
+  s.homepage         = 'https://github.com/gableroux/example-pod-using-restkit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Gabriel Le Breton' => 'lebreton.gabriel@gmail.com' }
-  s.source           = { :git => 'https://github.com/Gabriel Le Breton/example-pod-using-restkit.git', :tag => s.version.to_s }
+  s.author           = { 'gableroux' => 'lebreton.gabriel@gmail.com' }
+  s.source           = { :git => 'https://github.com/gableroux/example-pod-using-restkit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
