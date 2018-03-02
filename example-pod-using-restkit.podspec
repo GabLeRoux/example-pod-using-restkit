@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'example-pod-using-restkit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of example-pod-using-restkit.'
+  s.summary          = 'Example project for using a different pod within a custom pod (in this case, restkit).'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod is a simple example project to demonstrate how to use an other dependency within the same pod.
+I will be using restkit as a dependency to demonstrate the usage of a pod within a pod. 🤘
+
+This is a long description to resolve an issue where validator was complaining about a not long enough description
+Hope it is now. https://github.com/GabLeRoux/example-pod-using-restkit/issues/2
                        DESC
 
   s.homepage         = 'https://github.com/gableroux/example-pod-using-restkit'
